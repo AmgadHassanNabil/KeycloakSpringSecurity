@@ -1,0 +1,8 @@
+POST http://localhost:8080/api/add HTTP/1.1
+content-type: application/json
+Authorization: Bearer 
+
+{
+    "a": 2,
+    "b": 3
+}
